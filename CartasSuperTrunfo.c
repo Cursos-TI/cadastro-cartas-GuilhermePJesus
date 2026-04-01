@@ -26,6 +26,28 @@ float area2;
 float pib2;
 
   // Área para entrada de dados
+  printf("=== Cadastro da Carta 1 ===\n");
+
+  printf("Estado (letra):");
+  scanf("%c", &estado1);
+
+  printf("Código:");
+  scanf("%s", &codigo1);
+
+  printf("Nome da cidade:");
+  scanf("%s", &cidade1);
+
+  printf("População:");
+  scanf("%d", &populacao1);
+
+  printf("Área:");
+  scanf("%f", &area1);
+
+  printf("PIB (em bilhões):");
+  scanf("%f", &pib1);
+
+  printf("Pontos Turísticos:");
+  scanf("%d", &pontos1);
 
   // Área para exibição dos dados da cidade
 
