@@ -32,10 +32,10 @@ float pib2;
   scanf("%c", &estado1);
 
   printf("Código:");
-  scanf("%s", &codigo1);
+  scanf("%s", codigo1);
 
   printf("Nome da cidade:");
-  scanf("%s", &cidade1);
+  scanf("%s", cidade1);
 
   printf("População:");
   scanf("%d", &populacao1);
@@ -55,10 +55,10 @@ float pib2;
   scanf("%c", &estado2);
 
   printf("Código:");
-  scanf("%s", &codigo2);
+  scanf("%s", codigo2);
 
   printf("Nome da cidade:");
-  scanf("%s", &cidade2);
+  scanf("%s", cidade2);
 
   printf("População:");
   scanf("%d", &populacao2);
@@ -78,10 +78,19 @@ float pib2;
   printf("Estado: %c\n", estado1);
   printf("Código: %s\n", codigo1);
   printf("Cidade: %s\n", cidade1);
-  printf("Populção: %d\n", populacao1);
+  printf("População: %d\n", populacao1);
   printf("Área: %.2f\n", area1);
   printf("PIB (em bilhões): %.2f\n", pib1);
   printf("Pontos Turísticos: %d\n", pontos1);
+
+  printf("\n=== Carta 2 ===\n");
+  printf("Estado: %c\n", estado2);
+  printf("Código: %s\n", codigo2);
+  printf("Cidade: %s\n", cidade2);
+  printf("População: %d\n", populacao2);
+  printf("Área: %.2f\n", area2);
+  printf("PIB (em bilhões): %.2f\n", pib2);
+  printf("Pontos Turísticos: %d\n", pontos2);
 
 return 0;
 } 
