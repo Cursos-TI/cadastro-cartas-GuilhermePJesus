@@ -74,5 +74,14 @@ float pib2;
 
   // Área para exibição dos dados da cidade
 
+  printf("\n=== Carta 1 ===\n");
+  printf("Estado: %c\n", estado1);
+  printf("Código: %s\n", codigo1);
+  printf("Cidade: %s\n", cidade1);
+  printf("Populção: %d\n", populacao1);
+  printf("Área: %.2f\n", area1);
+  printf("PIB (em bilhões): %.2f\n", pib1);
+  printf("Pontos Turísticos: %d\n", pontos1);
+
 return 0;
 } 
