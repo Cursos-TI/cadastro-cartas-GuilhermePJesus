@@ -15,6 +15,8 @@ int populacao1;
 int pontos1;
 float area1;
 float pib1;
+float densidade1;
+float pibpercapita1;
 
   // Carta 2
 char estado2;
@@ -24,6 +26,8 @@ int populacao2;
 int pontos2;
 float area2;
 float pib2;
+float densidade2;
+float pibpercapita2;
 
   // Área para entrada de dados
   printf("=== Cadastro da Carta 1 ===\n");
