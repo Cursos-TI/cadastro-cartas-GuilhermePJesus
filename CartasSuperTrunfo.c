@@ -59,10 +59,10 @@ float pibpercapita2;
   scanf("%c", &estado2);
 
   printf("Código:");
-  scanf("%s", codigo2);
+  scanf("%s", &codigo2);
 
   printf("Nome da cidade:");
-  scanf("%s", cidade2);
+  scanf("%s", &cidade2);
 
   printf("População:");
   scanf("%d", &populacao2);
