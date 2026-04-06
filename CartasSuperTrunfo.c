@@ -53,6 +53,9 @@ float pibpercapita2;
   printf("Pontos Turísticos:");
   scanf("%d", &pontos1);
 
+  densidade1 = populacao1 / area1;
+  pibpercapita1 = pib1 / populacao1;
+
   printf("=== Cadastro da Carta 2 ===\n");
 
   printf("Estado (letra):");
@@ -75,6 +78,9 @@ float pibpercapita2;
 
   printf("Pontos Turísticos:");
   scanf("%d", &pontos2);
+
+  densidade2 = populacao2 / area2;
+  pibpercapita2 = pib2 / populacao2;
 
   // Área para exibição dos dados da cidade
 
