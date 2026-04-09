@@ -60,6 +60,8 @@ int verdadeiro = 1, falso = 0;
   densidade1 = populacao1 / area1;
   pibpercapita1 = pib1 / populacao1;
 
+  superpoder1 = populacao1 + area1 + pib1 + pontos1 + pibpercapita1 + densidade1;
+
   printf("=== Cadastro da Carta 2 ===\n");
 
   printf("Estado (letra): ");
@@ -86,6 +88,8 @@ int verdadeiro = 1, falso = 0;
   densidade2 = populacao2 / area2;
   pibpercapita2 = pib2 / populacao2;
 
+  superpoder2 = populacao2 + area2 + pib2 + pontos2 + pibpercapita2 + densidade2;
+
   // Área para exibição dos dados da cidade
 
   printf("\n=== Carta 1 ===\n");
@@ -111,6 +115,6 @@ int verdadeiro = 1, falso = 0;
   printf("Densidade Populacional: %.2f\n", densidade2);
   printf("PIB per Capita: %.2f\n", pibpercapita2);
   printf("Super Poder da Carta 2: %.2f\n", superpoder2);
-  
+
 return 0;
 } 
