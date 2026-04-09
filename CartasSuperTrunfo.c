@@ -116,5 +116,63 @@ int verdadeiro = 1, falso = 0;
   printf("PIB per Capita: %.2f\n", pibpercapita2);
   printf("Super Poder da Carta 2: %.2f\n", superpoder2);
 
+  printf("\n=== Comparação das Cartas ===\n");
+  printf("\nVitória da Carta 1: 1 / Vitória da Carta 2 : 0\n");
+  if (populacao1 > populacao2) {
+      printf("\nPopulação: %d\n", verdadeiro);
+  } else if (populacao1 < populacao2) {
+      printf("\nPopulação: %d\n", falso);
+  } else {
+      printf("\nPopulação: Empate!\n");
+  }
+
+  if (area1 > area2) {
+      printf("\nÁrea: %d\n", verdadeiro);
+  } else if (area1 < area2) {
+      printf("\nÁrea: %d\n", falso);
+  } else {
+      printf("\nÁrea: Empate!\n");
+  }
+
+  if (pib1 > pib2) {
+      printf("\nPIB: %d\n", verdadeiro);
+  } else if (pib1 < pib2) {
+      printf("\nPIB: %d\n", falso);
+  } else {
+      printf("\nPIB: Empate!\n");
+  }
+
+  if (pontos1 > pontos2) {
+      printf("\nPontos Turísticos: %d\n", verdadeiro);
+  } else if (pontos1 < pontos2) {
+      printf("\nPontos Turísticos: %d\n", falso);
+  } else {
+      printf("\nPontos Turísticos: Empate!\n");
+  }
+
+  if (densidade1 < densidade2) {
+      printf("\nDensidade Populacional: %d\n", verdadeiro);
+  } else if (densidade2 < densidade1) {
+      printf("\nDensidade Populacional: %d\n", falso);
+  } else {
+      printf("\nDensidade Populacional: Empate!\n");
+  }
+
+  if (pibpercapita1 > pibpercapita2) {
+      printf("\nPIB per Capita: %d\n", verdadeiro);
+  } else if (pibpercapita1 < pibpercapita2) {
+      printf("\nPIB per Capita: %d\n", falso);
+  } else {
+      printf("\nPIB per Capita: Empate!\n");
+  }
+
+  if (superpoder1 > superpoder2) {
+      printf("\nSuper Poder: %d\n", verdadeiro);
+  } else if (superpoder1 < superpoder2) {
+      printf("\nSuper Poder: %d\n", falso);
+  } else {
+      printf("\nSuper Poder: Empate!\n");
+  }
+
 return 0;
 } 
