@@ -98,6 +98,7 @@ int verdadeiro = 1, falso = 0;
   printf("Pontos Turísticos: %d\n", pontos1);
   printf("Densidade Populacional: %.2f\n", densidade1);
   printf("PIB per Capita: %.2f\n", pibpercapita1);
+  printf("Super Poder da Carta 1: %.2f\n", superpoder1);
 
   printf("\n=== Carta 2 ===\n");
   printf("Estado: %c\n", estado2);
@@ -109,6 +110,7 @@ int verdadeiro = 1, falso = 0;
   printf("Pontos Turísticos: %d\n", pontos2);
   printf("Densidade Populacional: %.2f\n", densidade2);
   printf("PIB per Capita: %.2f\n", pibpercapita2);
-
+  printf("Super Poder da Carta 2: %.2f\n", superpoder2);
+  
 return 0;
 } 
