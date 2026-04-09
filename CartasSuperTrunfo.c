@@ -17,6 +17,7 @@ float area1;
 float pib1;
 float densidade1;
 float pibpercapita1;
+float superpoder1;
 
   // Carta 2
 char estado2;
@@ -28,6 +29,9 @@ float area2;
 float pib2;
 float densidade2;
 float pibpercapita2;
+float superpoder2;
+
+int verdadeiro = 1, falso = 0;
 
   // Área para entrada de dados
   printf("=== Cadastro da Carta 1 ===\n");
